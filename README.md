@@ -37,3 +37,8 @@ After enabling Pages, use the URL shown in the repository's **Settings → Pages
 `https://<orient-github-org>.github.io/orient-powerbi-tv-player/`
 
 Replace the placeholders with the actual client organization and repository name.
+
+
+## Preconfigured dashboards
+
+The frontend includes four reportEmbed URLs from the supplied screenshot: Sales Performance, Sales Overview, Opportunity Analysis, and Opportunities Executive Overview. The first, third, and fourth report IDs were transcribed from a low-resolution screenshot and should be verified against the original Power BI links before production. These URLs do not grant access; each viewer still needs the appropriate Orient Power BI permissions and licensing. The app uses browser-local storage for settings and contains no credentials or access tokens.
